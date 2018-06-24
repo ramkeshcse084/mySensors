@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        listSen=(ListView)findViewById(R.id.list);
+        //listSen=(ListView)findViewById(R.id.list);
         SensorManager sManager = (SensorManager) this
                 .getSystemService(this.SENSOR_SERVICE);
         List<Sensor> sList = sManager.getSensorList(Sensor.TYPE_ALL);
@@ -27,6 +27,9 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
+
+    }
+    public void git(){
 
     }
 }
